@@ -1,0 +1,44 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hikaru7719/memo.git",
+  "author": "hikaru7719",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint -c .eslintrc.json pages/** --ext .js,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "core-js": "3",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.1"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.23.6",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.12.2",
+    "express": "^4.17.1",
+    "next": "^9.0.6",
+    "null-loader": "^3.0.0",
+    "rc-tween-one": "^2.6.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
